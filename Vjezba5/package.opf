@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier id="uid">code.google.com.epub-samples.epub30-spec</dc:identifier>
+      <dc:title>EPUB 3.0 Specification</dc:title>
+      <dc:creator>EPUB 3 Working Group</dc:creator>
+      <dc:language>en</dc:language>
+      <meta property="dcterms:modified">2021-04-25T17:08:25Z</meta>
+   </metadata>
+   <manifest>
+      <item href="navbar.xhtml" id="navbar" media-type="application/xhtml+xml"/>
+      <item href="slavni_lovac.xhtml" id="Slavni_lovac" media-type="application/xhtml+xml"/>
+      <item href="lijino_pismo.xhtml" id="Lijino_pismo" media-type="application/xhtml+xml"/>
+      <item href="kod_lijine_kuce.xhtml" id="Kod_lijine_kuce" media-type="application/xhtml+xml"/>
+      <item href="noc.xhtml" id="Noc" media-type="application/xhtml+xml"/>
+      <item href="rastanak.xhtml" id="Rastanak" media-type="application/xhtml+xml"/>  
+      <item href="potjera.xhtml" id="Potjera" media-type="application/xhtml+xml"/>
+      <item href="pred_jezevom_kucicom.xhtml" id="Pred_jezevom_kucicom" media-type="application/xhtml+xml"/>    
+      <item href="tri_galamadzije.xhtml" id="Tri_galamadzije"  media-type="application/xhtml+xml"/>
+      <item href="jezev_odgovor.xhtml" id="Jezev_odgovor" media-type="application/xhtml+xml"/>
+      <item href="kraj.xhtml" id="Kraj" media-type="application/xhtml+xml"/>
+      <item href="slike-20220411/divlja_svinja.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/jezev_odgovor.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/kod_lijine kuce.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/kraj.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/kraj2.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/lisica_klisnu.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/medo.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/noc.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/pismo.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/postar zec.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/pred_jezevom_kucicom.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/rastanak.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/rucak.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/slavni_lovac.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/sova.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/tri_galamdjije.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/vuk.jpg" media-type="image/jpeg"/>
+      <item href="slike-20220411/zadnja.jpg" media-type="image/jpeg"/>
+   </manifest>
+   <spine>
+      <itemref idref="navbar"/>
+      <itemref idref="Slavni_lovac"/>
+      <itemref idref="Lijino_pismo"/>
+      <itemref idref="Kod_lijine_kuce"/>
+      <itemref idref="Noc"/>
+      <itemref idref="Rastanak"/>
+      <itemref idref="Potjera"/>
+      <itemref idref="Pred_jezevom_kucicom"/>
+      <itemref idref="Tri_galamadzije"/>
+      <itemref idref="Jezev_odgovor"/>
+      <itemref idref="Kraj"/>
+   </spine>
+</package>
